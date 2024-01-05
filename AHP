@@ -1,0 +1,59 @@
+
+
+
+
+Explore and Predict Sales Price of the Ames, IA Housing data sets
+
+Olivia Washington
+Colorado State University Global
+MIS 470 -1: Data Science Foundations
+Dr. Alin Tomoiaga
+Due Date: 11/05/2023
+
+
+Explore and Predict Sales Price of the Ames, IA Housing data sets
+Figure 1
+ 
+Figure 2
+ 
+Figure 3
+ 
+Figure 4
+ 
+Figure 5
+ 
+Summary
+For this assignment we measure the sale price variable of the Ames, IA Housing Testing data set. We first calculate the mean, sd deviation, median, minimum, maximum. Then we plot a histogram for the distribution of the sales price variable.
+In Figure 2, we see the summary statistics of minimum, maximum, mean, median, and standard deviation. 
+Mean of the sale price
+Mean=177958 -> Interpretation: On average, the sale price is 177,958 for the Ames, IA Housing Testing.
+Standard deviation of the sale price
+Standard deviation=77569 -> Interpretation: On average, the sale price for the Ames, IA Housing deviates from the mean by about $77,569.
+Median of the sale price
+Median/Second Quartile/Q2=161750 -> Interpretation: Half the results for sale price are greater than or equal to 161,750, and half the results for sale price are less than or equal to 163995.
+Minimum of the sale price
+Minimum=52500 -> Interpretation: The smallest cost for the sale price is 52500.
+Maximum of the sale price
+Maximum=745000 -> Interpretation: The largest result cost for the sale price is 745000.
+Histogram
+In Figure 3 we see a histogram that shows the sale price on the x-axis and frequency on the y-axis. I could see the data is skewed right, and most of the homes cost $100,000 - $200,000. The number of houses sold with a sales price more than $200,000 decreases. 
+Linear regression model
+In Figure 4, we see that there's thirteen key factors marked with asterisks (*, **, ***), and it's evident that all thirteen displayed significance levels below the alpha value of 0.05.
+Hypothesis
+H0: There’s no significant difference as the sale price increases
+H1: There’s a significant difference as the sale price increases 
+The p-value is < 2.2e-16 (0.00000000000000022,) which is less than the significance factor of 0.05. We can reject the null hypothesis. The slope of the regression is 0.
+During this assignment I was unsure if my interpretations were correct. Everything else went okay.
+R-squared
+84.7% of the variability of the dependent variable is explained by the regression model
+MAPE 
+At the bottom of Figure 4 we see that the mean absolute percentage error (MAPE) is 15.03981, which means predictions are, on average, off by 15% from the real values. 
+While working on this assignment, the major issue I had was with the section multiple regression and interpretations. 
+
+
+Reference
+Datacamp. (Dec 2022). Multiple linear regression in R: tutorial with examples. https://www.datacamp.com/tutorial/multiple-linear-regression-r-tutorial.	
+Roberts, A. (8 Feb 2023). Mean absolute percentage error (MAPE): What you need to know. https://arize.com/blog-course/mean-absolute-percentage-error-mape-what-you-need-to-know/.
+STHDA. (3 Oct 2018). Multiple linear regression in R. http://www.sthda.com/english/articles/40-regression-analysis/168-multiple-linear-regression-in-r/.	
+Tomoiaga, A. (2023). MIS470: Data Science Foundations [Online course].  CSU Global.  https://csuglobal.instructure.com/courses/81852
+
